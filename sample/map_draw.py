@@ -38,3 +38,8 @@ class MapFrame(tk.Frame):
         but_font = tkfont.Font(family="Helvetica", size=16)
         self.quit = tk.Button(self, text="QUIT", fg="black", font=but_font, padx=24, pady=8, command=master.destroy)
         self.quit.pack(side="bottom")
+
+#Links:
+#https://www.python-course.eu/tkinter_canvas.php
+#https://docs.python.org/3/library/tkinter.html#tkinter-modules
+#http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/index.html
